@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+* {box-sizing: border-box;
+   margin: 0;
+   font-family: Arial,sans-serif;
+
+}
+
+
+/* Inicio de Menú */
+
+nav {border: 6px solid red;      
+     display: flex;
+     justify-content: space-around;
+     background-color: rgba(235, 16, 16, 0.7);
+     height: 50px;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     font-size: 2em;
+
+
+
+
+}
+
+nav a {text-decoration: none;
+	   color: white;
+	   font-weight: bold;
+	   text-shadow: 2px 2px 2px black;
+
+
+}
+
+nav a:hover {color: yellow;
+}
+
+nav a:active {color: black;
+}
+
+#servicios {margin-bottom: 20px;
+}
+
+
+
+
+/* Fin de menú */
+
+
+/* Inicio de header */
+
+header {height: 200px;
+        background-image: url(images/cabecera.jpg);           
+        background-repeat: no-repeat;
+        background-size: cover; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+
+
+#titulo-cabecera {
+	               font-size: 3em;
+
+
+
+}
+#titulo-cabecera h1 {text-align: center;
+	                  color: darkgreen;
+	                   text-shadow: 2px 2px 2px black;
+
+}
+
+
+/* Fin de header */
+
+
+/* Inicio de section servicios */
+
+#servicios { padding-top:20px ;
+
+
+
+}
+
+ .interiores {width: 50%;
+               text-align: center;
+                padding: 0.4em;
+} 
+              
+              
+               
+                  
+
+
+
+.interiores p {border: 2px solid black;
+               box-shadow: 2px 2px 2px black;
+               font-family: 'Dongle', sans-serif;
+                font-size: 1.5em;
+                 padding: 2px;
+                
+}
+  
+
+                   
+
+ section#servicios {display: flex;
+ 	                 flex-wrap: wrap;
+ 	                  align-content: center;
+ 	                   justify-content: center;
+                        padding-bottom: 20px;
+                        
+
+}
+#titulo-interiores {background-color: grey;
+                     box-shadow: 2px 2px 2px black;
+                    border-top: 2px 2px 2px black;
+                    border-right: 2px 2px 2px black;
+                    border-left: 2px 2px 2px black;
+
+}
+
+
+
+
+/* FIn de section servicios */
+
+
+/*Inicio de section obras */
+
+
+article#obras {
+               display: flex;
+                justify-content: space-around;
+                 flex-wrap: wrap;
+                  padding: 2em;
+                   padding: 10px;
+
+
+
+}
+
+.imagen-obras {border: 2px solid black;
+                width: 33%;
+                padding: 20px;
+                 text-align: center;
+                  box-shadow: 2px 2px 2px black;
+                  margin-bottom: 10px;
+                   
+
+
+                
+}
+
+#titulo-obras {text-align: center;
+                padding: px;
+                 background-color: black;
+                  color: white;
+                  font-weight: bold;
+                 
+}
+
+.imagen-obras p {background-color: grey;
+                font-weight: bold;
+                padding-top: 2px;
+
+}
+
+
+
+
+
+
+/* FIn de section obras */
+
+
+/* Inicio de footer */
+
+footer {
+         height: 170px;
+           font-size: 1em;
+              background-color: grey;
+               padding: 5px;
+                font-weight: bold;
+                 font-family: 'Dongle', sans-serif;
+                  color: white;
+}
+
+#info {display: flex;
+       justify-content: center;
+        align-items: center;
+         text-align: center;
+          padding-top: 20px;
+}
+
+
+
+#enlaces {width: 29%;
+          text-align: center;
+          margin-left: 100px;
+          
+}
+           
+
+#donde-estamos {width: 29%;
+                 text-align: center;
+                 padding-left: 100px;
+                 
+}
+                
+
+#email {width: 29%;
+        text-align: center;
+
+        
+}
+
+#titulo-footer {text-align: center;
+                border-bottom: 2px solid white;
+                 padding: 10px;
+}
+
+footer a{font-size: 3em;
+          padding: 0.2em;
+           color: white;
+
+
+}
+
+
+         
+          
+
+
+
+/* Fin de footer */
+
+
+/*Contacto */
+ 
+form {background-color: grey;
+      color: white;
+       height: 120px;
+
+}
+
+section#contacto-caja {padding-left: 10px;
+                       padding-right: 10px;
+                       margin-bottom: 10px;
+
+
+}
+
+.titulo-contacte {text-align: center;
+                  font-weight: bold;
+                   font-size: 1.3em;
+                background-color:black;
+                color: white;
+                padding-bottom: 5px;
+
+}
+
+
+label {width: 20%;
+
+
+}
+
+input {width: 90%;
+       margin-bottom: 10px;
+       margin-top: 10px;
+}
+
+#email {width: 90%;}
+
+form p {color: red;}
+
+
+/* FIn de contacto */
